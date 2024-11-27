@@ -1,0 +1,234 @@
+#backgroud{
+    width: 100%;
+    overflow: hidden;/* transformではみ出たところを消してます */
+    background: url(../images/gazou1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#top{
+    position: relative;
+    width: 100%;
+    height: 854px;
+    background: url(../images/mv_sen.png), url(../images/mv_hasen.png);
+    background-size: 749px, 100%;
+    background-repeat: no-repeat;
+    background-position: 54%, 0% 100%;
+}
+
+#top h1{
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#header{
+    position: relative;
+    font-size: 70px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    transform: rotate(-5deg);
+}
+
+#header_TOP {
+    position: absolute;
+    top: 54px;
+    left: 290px;
+}
+#header_PLOFILE {
+    position: absolute;
+    top: 170px;
+    left: 170px;
+}
+#header_GAME {
+    position: absolute;
+    top: 300px;
+    left: 260px;
+}
+#header_ANIME {
+    position: absolute;
+    top: 430px;
+    left: 90px;
+}
+#header_MUSIC {
+    position: absolute;
+    top: 600px;
+    left: 310px;
+}
+
+#profile{
+    padding-top: 100px;
+}
+
+#profile h2{
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile_box {
+    display: flex;
+    justify-content: center;
+}
+
+#profile dl{
+    font-size: 50px;
+    left:  100px;
+    padding: 50px;
+    gap: 50px;
+}
+
+#profile1 p{
+    position: absolute;
+    bottom: -30px;
+}
+
+#border{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: solid 5px #000;
+    border-bottom:solid 5px #000;
+}
+
+h3{
+    font-size: 100px;
+    text-align: center;
+    border:solid 5px #000; 
+    width: 1000px;
+    padding: 50px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#game-backgroud{
+    width: 100%;
+    background: url(../images/gazou2.png);
+}
+
+#game1{
+    margin: 0 auto;
+    padding-left: 10px;
+    width: 1000px;
+    display: flex;
+    column-gap: 200px;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#game2{
+    margin: 0 auto;
+    padding-right: 10px;
+    width: 1000px;
+    display: flex;
+    column-gap: 200px;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap; 
+}
+
+.space{
+    margin-top: 200px;
+}
+
+#anime・manga-backgroud{
+    width: 100%;
+    background: url(../images/gazou3.png);
+}
+
+#anime・manga1{
+    margin: 0 auto;
+    padding-left: 10px;
+    width: 1000px;
+    display: flex;
+    column-gap: 200px;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#anime・manga2{
+    margin: 0 auto;
+    padding-right: 10px;
+    width: 1000px;
+    display: flex;
+    column-gap: 200px;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap; 
+}
+
+
+
+#music-backgroud{
+    width: 100%;
+    background: url(../images/gazou4.png);
+}
+
+#music1{
+    margin: 0 auto;
+    padding-left: 10px;
+    width: 1000px;
+    display: flex;
+    column-gap: 200px;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#music2{
+    margin: 0 auto 50px;
+    padding-right: 10px;
+    width: 1000px;
+    display: flex;
+    column-gap: 200px;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap; 
+}
+
+#footer-backgroud{
+    width: 100%;
+    background: url(../images/gazou5.png);
+    border-top: solid 5px #000;
+}
+
+#footer ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 500px;
+    flex-wrap: wrap;
+    font-size: 50px;
+    list-style: none;
+    font-weight: bold;
+}
+
+#footer p{
+    position: relative;
+    margin-left: 1000px; 
+}
+
+#header a{
+    color: #000;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: blueviolet;
+}
+
+
+#footer a{
+    color: #000;
+}
+
+#footer :hover{ 
+    color: blueviolet;
+}
